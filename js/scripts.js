@@ -11,6 +11,7 @@ function newItem(){
     alert("You must write something!");
   } else {
     $('#list').append(li)
+    $('#input').val('');
   }
 
  //2. Crossing out an item from the list of items:
